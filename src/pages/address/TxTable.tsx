@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 
 export default function TxTable({ txs }: { txs: any[] }) {
 
-  const [txsState, setTxsState] = useState(txs)
+  const [txsState, setTxsState] = useState(txs ?? [])
   const [sortKey, setSortKey] = useState('timeStamp')
   const [isSortAscending, setIsSortAscending] = useState(false)
 
