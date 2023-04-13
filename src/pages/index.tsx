@@ -15,7 +15,7 @@ export default function Home() {
           <p>
             Enter address or transaction hash in the following url format:&nbsp;<br /><br />
             <code className={styles.code}>
-              `/address/[address]` or `/tx/[tx]
+              `/address/[address]` or `/tx/[hash]
             </code>
           </p>
         </div>
