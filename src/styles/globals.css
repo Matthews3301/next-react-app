@@ -105,3 +105,31 @@ a {
     color-scheme: dark;
   }
 }
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: lightblue;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.a-style {
+  color: lightblue;
+  user-select: none;
+  cursor: pointer;
+}
+
+.a-style:hover {
+  color: aqua;
+}
+
+table {
+  border-spacing: 10px 8px;
+  width: 100%;
+  text-align: left;
+}
